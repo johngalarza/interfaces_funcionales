@@ -1,0 +1,26 @@
+info:
+  name: Creacion Cuenta
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost:8080/api/cuentas
+  body:
+    type: json
+    data: |-
+      {
+          "numeroCuenta": "0012345678",
+          "saldo": 1000.00,
+          "tipo": "AHORROS",
+          "cliente": {
+              "id": 1
+          }
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

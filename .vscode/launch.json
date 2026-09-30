@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TareaApplication<tarea>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.interfaces.funcionales.tarea.TareaApplication",
+            "projectName": "tarea",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
